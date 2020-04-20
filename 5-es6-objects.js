@@ -29,7 +29,7 @@ const produto = {
 // console.log(estoque)
 // console.log(avaliacao)
 
-const transaction = (texto, {label, estoque}) => {
+const transaction = (texto, {label, estoque} = {}) => {
    console.log(texto, label, estoque)
 }
 
